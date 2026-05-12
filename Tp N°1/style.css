@@ -1,0 +1,94 @@
+.contenedor {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+}
+
+.contenedor p,
+h1 {
+    width: 50%;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+nav a {
+    font-weight: bold;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card-body {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(224, 102, 102);
+}
